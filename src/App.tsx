@@ -1,4 +1,5 @@
-
+import QuestList from "./QuestList.tsx"
+import VehicleList from "./VehicleList.tsx"
 import './App.css'
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-      <h1>hej</h1>
+      <QuestList />
+      <VehicleList />
     </>
   )
 }
