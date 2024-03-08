@@ -5,4 +5,23 @@
   text-align: center;
 } */
 
+ul {
+  list-style: none;
+}
 
+.complete, .notComplete {
+  font-size: 2em;
+}
+
+.complete:hover, .notComplete {
+  cursor: pointer;
+}
+
+.compContainer {
+  background-color: white;
+  color: black;
+  border: white solid 3px;
+  margin: 2rem;
+  padding: 2rem;
+  width: 30rem;
+}
